@@ -1,0 +1,43 @@
+{
+  "n_measurements": 3351,
+  "n_sites": 291,
+  "n_bioregions": 18,
+  "year_min": 2005,
+  "year_max": 2022,
+  "veg_stats": {
+    "forest": {
+      "n": 1246,
+      "sites": 263,
+      "median": 101.3,
+      "q1": 91.2,
+      "q3": 120.0,
+      "p05": 76.5,
+      "p95": 171.2
+    },
+    "shrubland": {
+      "n": 1237,
+      "sites": 43,
+      "median": 95.6,
+      "q1": 58.4,
+      "q3": 133.2,
+      "p05": 35.5,
+      "p95": 198.5
+    },
+    "grassland": {
+      "n": 868,
+      "sites": 54,
+      "median": 89.4,
+      "q1": 54.5,
+      "q3": 133.7,
+      "p05": 22.8,
+      "p95": 255.8
+    }
+  },
+  "headline": {
+    "forest_logo_met": 0.11,
+    "forest_random_met": 0.45,
+    "yebra_forest": 0.43,
+    "yebra_ground_low": 0.42,
+    "yebra_ground_high": 0.53
+  }
+}
