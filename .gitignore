@@ -1,0 +1,30 @@
+# 绝不公开:机密 / 策略
+ssh.md
+SPEC.md
+docs/
+.claude/
+
+# 原始数据(大 / 可复现)
+data/
+outputs/lfmc_clean.parquet
+outputs/lfmc_au.parquet
+outputs/lfmc_au_s2.parquet
+outputs/ts/
+outputs/models/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Web
+web/node_modules/
+web/dist/
+web/tsconfig.tsbuildinfo
+.playwright-mcp/
+
+# 截图(临时)
+*.jpeg
+warm_*.png
+page-*.png

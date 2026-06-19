@@ -1,0 +1,155 @@
+{
+  "region": "au",
+  "parquet": "outputs/lfmc_au.parquet",
+  "feature_set": "met",
+  "by_veg": {
+    "forest": {
+      "n_sites": 263,
+      "features": [
+        "lat",
+        "lon",
+        "elevation",
+        "slope",
+        "doy_sin",
+        "doy_cos",
+        "precip_24h",
+        "precip_3d",
+        "precip_1w",
+        "precip_4w",
+        "precip_12w",
+        "rh_06",
+        "rh_09",
+        "rh_12",
+        "rh_15",
+        "temp_max",
+        "temp_mean",
+        "vp_mean",
+        "wind_mean",
+        "dewpoint_mean"
+      ],
+      "logo": {
+        "n": 1246,
+        "r2": 0.11409625046051575,
+        "rmse": 30.949934464345212,
+        "mae": 18.977169818515616
+      },
+      "random": {
+        "n": 250,
+        "r2": 0.44683680221895405,
+        "rmse": 24.55104702257191,
+        "mae": 15.67614015899733
+      }
+    },
+    "shrubland": {
+      "n_sites": 43,
+      "features": [
+        "lat",
+        "lon",
+        "elevation",
+        "slope",
+        "doy_sin",
+        "doy_cos",
+        "precip_24h",
+        "precip_3d",
+        "precip_1w",
+        "precip_4w",
+        "precip_12w",
+        "rh_06",
+        "rh_09",
+        "rh_12",
+        "rh_15",
+        "temp_max",
+        "temp_mean",
+        "vp_mean",
+        "wind_mean",
+        "dewpoint_mean"
+      ],
+      "logo": {
+        "n": 1237,
+        "r2": 0.24850201186531695,
+        "rmse": 46.565518646548064,
+        "mae": 33.708912666736964
+      },
+      "random": {
+        "n": 248,
+        "r2": 0.5592956823619252,
+        "rmse": 33.81852146700976,
+        "mae": 23.61349408241061
+      }
+    },
+    "grassland": {
+      "n_sites": 54,
+      "features": [
+        "lat",
+        "lon",
+        "elevation",
+        "slope",
+        "doy_sin",
+        "doy_cos",
+        "precip_24h",
+        "precip_3d",
+        "precip_1w",
+        "precip_4w",
+        "precip_12w",
+        "rh_06",
+        "rh_09",
+        "rh_12",
+        "rh_15",
+        "temp_max",
+        "temp_mean",
+        "vp_mean",
+        "wind_mean",
+        "dewpoint_mean"
+      ],
+      "logo": {
+        "n": 868,
+        "r2": 0.0691518320732376,
+        "rmse": 69.22963298016069,
+        "mae": 48.871928737558015
+      },
+      "random": {
+        "n": 174,
+        "r2": 0.5858585124161751,
+        "rmse": 43.58545982297206,
+        "mae": 29.616732182441844
+      }
+    },
+    "all": {
+      "n_sites": 291,
+      "features": [
+        "lat",
+        "lon",
+        "elevation",
+        "slope",
+        "doy_sin",
+        "doy_cos",
+        "precip_24h",
+        "precip_3d",
+        "precip_1w",
+        "precip_4w",
+        "precip_12w",
+        "rh_06",
+        "rh_09",
+        "rh_12",
+        "rh_15",
+        "temp_max",
+        "temp_mean",
+        "vp_mean",
+        "wind_mean",
+        "dewpoint_mean"
+      ],
+      "logo": {
+        "n": 3351,
+        "r2": 0.1567985644766383,
+        "rmse": 48.714303225951994,
+        "mae": 32.7876651307279
+      },
+      "random": {
+        "n": 671,
+        "r2": 0.5309739746451847,
+        "rmse": 36.341482078000595,
+        "mae": 24.40376068461871
+      }
+    }
+  }
+}

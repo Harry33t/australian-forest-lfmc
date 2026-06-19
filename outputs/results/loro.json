@@ -1,0 +1,115 @@
+{
+  "feature_set": "met",
+  "parquet": "outputs/lfmc_au.parquet",
+  "regions": [
+    "Australian Alps",
+    "NSW South Western Slopes",
+    "Riverina",
+    "South East Corner",
+    "South Eastern Highlands",
+    "Swan Coastal Plain",
+    "Sydney Basin"
+  ],
+  "loro": {
+    "Australian Alps": {
+      "r2": -0.18938040963013836,
+      "rmse": 44.796359109347975,
+      "n": 175
+    },
+    "NSW South Western Slopes": {
+      "r2": -0.03229866407557225,
+      "rmse": 50.542753918227035,
+      "n": 129
+    },
+    "Riverina": {
+      "r2": -0.009320789141644692,
+      "rmse": 67.89059409160161,
+      "n": 92
+    },
+    "South East Corner": {
+      "r2": 0.17507870596462016,
+      "rmse": 50.02665879786549,
+      "n": 52
+    },
+    "South Eastern Highlands": {
+      "r2": 0.026182691913360312,
+      "rmse": 65.34220609188228,
+      "n": 899
+    },
+    "Swan Coastal Plain": {
+      "r2": -0.4243436237307816,
+      "rmse": 58.89751913834013,
+      "n": 926
+    },
+    "Sydney Basin": {
+      "r2": -1.1403517546290307,
+      "rmse": 50.59063090718935,
+      "n": 921
+    }
+  },
+  "transfer_matrix": {
+    "Australian Alps": {
+      "Australian Alps": -0.1429789218315305,
+      "NSW South Western Slopes": -0.4861869847906306,
+      "Riverina": -0.11453905346933024,
+      "South East Corner": -0.2742530255871032,
+      "South Eastern Highlands": -0.2597783256558419,
+      "Swan Coastal Plain": -1.6508067496713572,
+      "Sydney Basin": -0.8196168114784037
+    },
+    "NSW South Western Slopes": {
+      "Australian Alps": -0.00570212459523689,
+      "NSW South Western Slopes": -0.1629230722429289,
+      "Riverina": -0.0007959357155460367,
+      "South East Corner": -0.009405728537591473,
+      "South Eastern Highlands": -0.07479413965479687,
+      "Swan Coastal Plain": -0.6288038369280127,
+      "Sydney Basin": -0.46111821965827304
+    },
+    "Riverina": {
+      "Australian Alps": 0.026704323469102453,
+      "NSW South Western Slopes": -0.06023896987302635,
+      "Riverina": -0.13256438805006487,
+      "South East Corner": -0.08694237721184739,
+      "South Eastern Highlands": -0.06999378629100783,
+      "Swan Coastal Plain": -0.24079138456363802,
+      "Sydney Basin": -0.19668547224088706
+    },
+    "South East Corner": {
+      "Australian Alps": -0.7467336158873896,
+      "NSW South Western Slopes": -0.07482509434018447,
+      "Riverina": -0.14624176494681973,
+      "South East Corner": -0.2299941485228536,
+      "South Eastern Highlands": -0.0691948182863702,
+      "Swan Coastal Plain": -0.13901007719769765,
+      "Sydney Basin": -0.5269267587786282
+    },
+    "South Eastern Highlands": {
+      "Australian Alps": -0.23263883421149467,
+      "NSW South Western Slopes": -0.12650666215316742,
+      "Riverina": -0.02963425477947723,
+      "South East Corner": 0.039176683706487636,
+      "South Eastern Highlands": 0.7127098615196756,
+      "Swan Coastal Plain": -0.3535134877206594,
+      "Sydney Basin": -1.5729769476083852
+    },
+    "Swan Coastal Plain": {
+      "Australian Alps": -0.7494496012892358,
+      "NSW South Western Slopes": -0.7429017619069902,
+      "Riverina": -0.07863382203290081,
+      "South East Corner": -0.43234203870530497,
+      "South Eastern Highlands": -0.07942800423428631,
+      "Swan Coastal Plain": 0.4120642495040684,
+      "Sydney Basin": -0.9822293436063958
+    },
+    "Sydney Basin": {
+      "Australian Alps": -0.3084822322603369,
+      "NSW South Western Slopes": -0.02817574965293268,
+      "Riverina": -0.01972768241878442,
+      "South East Corner": 0.002399773736129318,
+      "South Eastern Highlands": 0.007832019759235975,
+      "Swan Coastal Plain": -0.31220394244820104,
+      "Sydney Basin": 0.37094034640097007
+    }
+  }
+}
