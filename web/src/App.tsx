@@ -10,7 +10,6 @@ async function load<T>(f: string): Promise<T> {
   const r = await fetch(`${base}data/${f}`);
   return r.json();
 }
-const GITHUB = "https://github.com/Harry33t/australian-forest-lfmc";
 
 export default function App() {
   const [sites, setSites] = useState<Site[]>([]);
@@ -37,7 +36,6 @@ export default function App() {
         <div className="authors"><span className="name">Guanxiong Huang</span></div>
         <div className="affil">Northwest A&amp;F University · harry.huang@nwafu.edu.cn</div>
         <div className="links">
-          <a href={GITHUB} target="_blank" rel="noreferrer">Code</a>
           <a href="https://doi.org/10.1038/s41597-024-03159-6" target="_blank" rel="noreferrer">Data · Globe-LFMC 2.0</a>
           <a href="https://www.dea.ga.gov.au/" target="_blank" rel="noreferrer">Sentinel-2 · Digital Earth Australia</a>
         </div>
@@ -141,7 +139,6 @@ export default function App() {
         Data: Globe-LFMC 2.0 (Yebra et al. 2024, <i>Scientific Data</i> 11:332) · Sentinel-2 NBART via
         Digital Earth Australia · IBRA7 bioregions (© Commonwealth of Australia).<br />
         Guanxiong Huang · Northwest A&amp;F University · <a href="mailto:harry.huang@nwafu.edu.cn">harry.huang@nwafu.edu.cn</a>
-        {" · "}<a href={GITHUB} target="_blank" rel="noreferrer">source code</a>
       </footer>
     </>
   );
