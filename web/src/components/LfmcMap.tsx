@@ -70,6 +70,10 @@ export default function LfmcMap({ sites, outline }: { sites: Site[]; outline: un
       </DeckGL>
 
       <div className="hero-overlay">
+        <div className="byline">
+          <span className="who">Guanxiong Huang</span>
+          <span className="aff">Northwest A&amp;F University · harry.huang@nwafu.edu.cn</span>
+        </div>
         <div className="kicker">Globe-LFMC 2.0 field sites · Sentinel-2 (Digital Earth Australia)</div>
         <h1>Live fuel moisture in Australian forests</h1>
         <p>

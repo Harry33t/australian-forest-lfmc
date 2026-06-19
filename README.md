@@ -1,13 +1,15 @@
 # Australian Forest Live Fuel Moisture — estimation, generalisation & uncertainty
 
+**Guanxiong Huang** · Northwest A&F University · harry.huang@nwafu.edu.cn
+
+🌐 **Interactive 3D demo:** https://harry33t.github.io/australian-forest-lfmc/
+
+---
+
 A research prototype on **live fuel moisture content (LFMC)** of Australian forests: an honest
 evaluation of how well forest LFMC can be estimated from satellite + meteorology, how far models
 generalise across sites and bioregions, and how to attach calibrated uncertainty to each estimate.
-
-**Interactive 3D demo:** see GitHub Pages link in the repo description.
 Built with Globe-LFMC 2.0 ground truth, Sentinel-2 (Digital Earth Australia), and IBRA7 bioregions.
-
-> Author: **Guanxiong Huang**, Northwest A&F University — harry.huang@nwafu.edu.cn
 
 ---
 
