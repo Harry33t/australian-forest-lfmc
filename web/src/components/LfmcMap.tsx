@@ -69,20 +69,7 @@ export default function LfmcMap({ sites, outline }: { sites: Site[]; outline: un
         <Map mapStyle={DARK} attributionControl={false} />
       </DeckGL>
 
-      <div className="hero-overlay">
-        <div className="byline">
-          <span className="who">Guanxiong Huang</span>
-          <span className="aff">Northwest A&amp;F University · harry.huang@nwafu.edu.cn</span>
-        </div>
-        <div className="kicker">Globe-LFMC 2.0 field sites · Sentinel-2 (Digital Earth Australia)</div>
-        <h1>Live fuel moisture in Australian forests</h1>
-        <p>
-          Each column is a field-measured LFMC site. Colour shows the moisture estimate;
-          height shows the model's uncertainty at that site. Drag to rotate, scroll to zoom.
-        </p>
-      </div>
-
-      <div className="panel controls">
+      <div className="map-panel controls">
         <div className="title">Colour by</div>
         <div className="seg">
           {(["lfmc", "unc", "veg"] as ColorMode[]).map((m) => (
@@ -114,7 +101,7 @@ export default function LfmcMap({ sites, outline }: { sites: Site[]; outline: un
 function Legend({ mode }: { mode: ColorMode }) {
   if (mode === "veg") {
     return (
-      <div className="panel legend">
+      <div className="map-panel legend">
         <div className="title">Vegetation type</div>
         {Object.keys(VEG_LABEL).map((v) => (
           <div className="veg-row" key={v}>
@@ -130,7 +117,7 @@ function Legend({ mode }: { mode: ColorMode }) {
     ? "linear-gradient(90deg, rgb(150,116,70), rgb(210,140,60), rgb(206,80,46), rgb(168,40,34))"
     : "linear-gradient(90deg, rgb(92,38,24), rgb(168,72,34), rgb(212,130,48), rgb(236,184,96), rgb(246,224,168))";
   return (
-    <div className="panel legend">
+    <div className="map-panel legend">
       <div className="title">{isUnc ? "Model uncertainty (±%)" : "LFMC (% dry weight)"}</div>
       <div className="bar" style={{ background: grad }} />
       <div className="ticks">

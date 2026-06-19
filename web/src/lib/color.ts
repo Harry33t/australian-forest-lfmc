@@ -44,10 +44,10 @@ const UNC_STOPS: [number, [number, number, number]][] = [
 ];
 export const uncColor = (v: number) => ramp(UNC_STOPS, v).map(Math.round) as [number, number, number];
 
-// 迁移矩阵 R²:负(赤红)→0(暖中性)→正(暖橄榄绿)
+// 迁移矩阵 R²:负(赤红)→0(浅米中性,配浅色卡)→正(暖橄榄绿)
 export function r2Color(v: number): string {
   const c = Math.max(-1, Math.min(1, v));
-  const neutral = [44, 36, 28];
+  const neutral = [240, 233, 222];
   if (c >= 0) {
     const t = c, g = [120, 146, 64];
     return `rgb(${Math.round(lerp(neutral[0], g[0], t))},${Math.round(lerp(neutral[1], g[1], t))},${Math.round(lerp(neutral[2], g[2], t))})`;
